@@ -59,15 +59,15 @@ for (var index = 0; index < alpha.length; index++) {
 
 console.log(s1 + s2);			
 				
-loop/index/s1/s2/output
-1 / 0 / m / - / 'm'
-2 / 1 / - / p / 'mp'
-3 / 2 / me / - / 'mep'
-4 / 3 / - / pu / 'mepu'
-5 / 4 / meo / - / 'meopu'
-6 / 5 / - / pur / 'meopur'
-7 / 6 / meow / - / 'meowpur'
-8 / 7 / - / purr / 'meowpurr'
+loop|index|s1|s2    |output
+1 | 0 | m    | -    | 'm'
+2 | 1 | -    | p    | 'mp'
+3 | 2 | me   | -    | 'mep'
+4 | 3 | -    | pu   | 'mepu'
+5 | 4 | meo  | -    | 'meopu'
+6 | 5 | -    | pur  | 'meopur'
+7 | 6 | meow | -    | 'meowpur'
+8 | 7 | -    | purr | 'meowpurr'
 
 
 Work:

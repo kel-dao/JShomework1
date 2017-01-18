@@ -1,0 +1,74 @@
+5 > 4 && false = false
+5 is greater than 4 = true
+true && false = false
+
+true && 5 * 2 > 3 + 3 * 2 = true
+true && 10 > 3 + 6
+true && 10 > 9
+10 is greater than 9 = true
+true && true = true
+
+true && 5 * 2 > (3 + 3) * 2 = false
+true && 5 * 2 > 6 * 2
+true && 10 > 12
+10 is NOT greater than 12
+true && false
+
+true && true || false = true
+true && true = true
+true || false = true
+
+true && (true || false) = true
+true || false = true
+true && true = true
+
+false && false || true = true
+false && false = false
+false || true = true
+
+false && (false || true) = false
+(false || true) = true
+false && true = false
+
+(false && false) && false && (true || false) || false 
+(false && false) = false 
+(true || false) = true
+false && false && true || false
+false && false && true = false
+false || false = false
+ 
+4 == "4" = false
+4 is an integer
+“4” is a string (that could represent 4, but is not stated)
+4 == “4” = false
+
+4 == "4" || 4 == 4 = true
+4 is not “4” || 4 is 4 
+false || true = true
+
+10 % 3 == 10.0 % 3 = true
+10 divided by 3 is 3, remainder 1 = 1
+10.0 divided by 3 is 3, remainder 1 = 1.0
+1 == 1.0 = true
+
+10 * (5 / 2.0) == 10.0 * (5 / 2) = false
+10 * (2.50) == 10.0 * (2.5)
+25.0 == 25.0 = true
+
+10 * 5 / 2 > 10 * (5 / 2) 
+10 * 5 / 2 > 10 * (2.5)
+50 / 2 > 25
+25 > 25
+25 is NOT greater than 25.
+False 
+
+2 * 2 ** 3 == (2 * 2) ** 3 = False
+2 * 2 ** 3 == 4 ** 3
+2 * (2*2*2=8) == 4*4*4=64
+2 * 8 == 64
+16 == 64 = false
+
+(10 - 4) < +6 || -(2 * -4) > 0 = true
+6 < +6 || -(-8) > 0
+6 is not greater than +6 || 8 is greater than 0
+false || true = true

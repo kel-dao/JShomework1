@@ -1,0 +1,140 @@
+Question 1
+
+for (var x = 0; x <= 17; x = x + 2) {   
+  console.log(2 * x + 7);
+}
+
+Loop Count/Value of X/Output
+1	0	7
+2	2	11
+3	4	15
+4	6	19
+5	8	23
+6	10	27
+7	12	31
+8	14	35
+9	16	39
+
+Work:
+x = 0 (starting value)		
+First iteration is 2 * x + 7		
+2 * 0 + 7		
+0 + 7 = 7		
+output = 7		
+x = x+ 2		
+x = 0 + 2 = 2		
+x = 2		
+second iteration is 2 * x + 7 		
+2 * 2 + 7		
+4 + 7 = 11		
+output = 11		
+x = x + 2		
+x = 2 + 2		
+x = 4		
+third iteration is 2 * x + 7		
+2 * 4 + 7 		
+8 + 7 = 15		
+output = 15		
+x = x + 2		
+x = 4 + 2		
+x = 6		
+fourth iteration is 2 * x + 7		
+2 x 6 + 7		
+12 + 7 = 19		
+output = 19		
+
+Question 2
+
+var alpha = 'mpeuorwr';
+var s1 = '';
+var s2 = '';
+
+for (var index = 0; index < alpha.length; index++) {
+  if (index % 2 == 0) {
+    s1 = s1 + alpha.substr(index, 1);
+  } else {
+    s2 = s2 + alpha.substr(index, 1);
+  }
+}
+
+console.log(s1 + s2);			
+				
+loop/index/s1/s2/output
+1 / 0 / m / - / 'm'
+2 / 1 / - / p / 'mp'
+3 / 2 / me / - / 'mep'
+4 / 3 / - / pu / 'mepu'
+5 / 4 / meo / - / 'meopu'
+6 / 5 / - / pur / 'meopur'
+7 / 6 / meow / - / 'meowpur'
+8 / 7 / - / purr / 'meowpurr'
+
+
+Work:
+0 % 2 = 0
+s1 = '' + alpha.subst(0,1)
+s1 = 'm'
+console.log (s1 + s2)
+output = 'm'
+
+index++ = 1
+1 % 2 = 1
+s2 = '' + alpha.subst(1,1)
+s2 = 'p'
+console.log (s1 + s2)
+output = 'mp'
+
+index++ = 2
+2 % 2 = 0
+s1 = 'm' + alpha.subst(2,1)
+s1 = 'm' + e
+s1 = 'me'
+console.log (s1 + s2)
+output = 'mep'
+
+index++ = 3
+3 % 2 = 1
+s2 = 'p' + alpha.substr(3,1)
+s2 = 'p' + u
+s2 = 'pu'
+console.log (s1 + s2)
+output = 'mepu'
+
+index++ = 4
+4 % 2 = 0
+s1 = 'me' + a.s(4,1)
+s1 = 'meo'
+c.l (s1 + s2)
+output = 'meopu'
+
+index++ = 5
+5 % 2 = 1
+s2 = 'pu' + a.s(5,1)
+s2 = 'pur'
+c.l (s1 + s2)
+output = 'meopur'
+
+index++ = 6
+6 % 2 = 0
+s1 = 'meo' + a.s(6,1)
+s1 = 'meow'
+c.l (s1 + s2)
+output = 'meowpur'
+
+index++ = 7
+7 % 2 = 1
+s2 = 'pur' + a.s(7,1)
+s2 = 'purr'
+c.l(s1 + s2)
+output = 'meowpurr'
+				
+                
+				
+				
+				
+				
+				
+				
+				
+				
+				

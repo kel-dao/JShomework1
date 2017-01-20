@@ -41,6 +41,7 @@ false || false = false
 4 is an integer
 “4” is a string (that could represent 4, but is not stated)
 4 == “4” = false
+// actually TRUE unless there are 3 === //
 
 4 == "4" || 4 == 4 = true
 4 is not “4” || 4 is 4 
@@ -51,7 +52,7 @@ false || true = true
 10.0 divided by 3 is 3, remainder 1 = 1.0
 1 == 1.0 = true
 
-10 * (5 / 2.0) == 10.0 * (5 / 2) = false
+10 * (5 / 2.0) == 10.0 * (5 / 2) = true
 10 * (2.50) == 10.0 * (2.5)
 25.0 == 25.0 = true
 
